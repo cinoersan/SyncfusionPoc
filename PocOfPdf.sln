@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocOfPdf", "PocOfPdf\PocOfPdf.csproj", "{55F05CB3-2E9F-4539-8490-D7AB43F38FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F05CB3-2E9F-4539-8490-D7AB43F38FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F05CB3-2E9F-4539-8490-D7AB43F38FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F05CB3-2E9F-4539-8490-D7AB43F38FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F05CB3-2E9F-4539-8490-D7AB43F38FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {943AD4DD-7937-4198-95E2-5E34A92B8ABD}
+	EndGlobalSection
+EndGlobal
