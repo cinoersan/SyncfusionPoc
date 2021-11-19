@@ -10,18 +10,18 @@ namespace PocOfPdf.Controllers
 	public class PdfController : ControllerBase
 	{
 		[HttpGet("get")]
-		public IActionResult Get()
+		public IActionResult Get(string url)
 		{
 			// Burası için bir rapor url oluşturulmaması gerekiyor.
-			var stream = ReportPdf("https://venngage.com/blog/business-report-templates/");
+			var stream = ReportPdf(url);
 			return File(stream.ToArray(), System.Net.Mime.MediaTypeNames.Application.Pdf, "Output.pdf");
 		}
 
 		[HttpGet("gethtml")]
-		public IActionResult GetHtml()
+		public IActionResult GetHtml(string html)
 		{
 			// Burası için bir rapor url oluşturulmaması gerekiyor.
-			var stream = ReportPdfHtml("<div>test<div>");
+			var stream = ReportPdfHtml(html);
 			return File(stream.ToArray(), System.Net.Mime.MediaTypeNames.Application.Pdf, "Output.pdf");
 		}
 
